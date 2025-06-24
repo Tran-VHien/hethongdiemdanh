@@ -2,7 +2,7 @@ Dự án Arduino - Hệ thống điểm danh
 
 Giới thiệu
 
-Đây là dự án Arduino sử dụng các cảm biến và màn hình LCD. Dự án này yêu cầu sử dụng một số thư viện đặc biệt và cần một số bước thiết lập ban đầu trong Arduino IDE.
+Đây là dự án Arduino sử dụng cảm biến vân tay và màn hình LCD. Dự án này yêu cầu sử dụng một số thư viện đặc biệt và cần một số bước thiết lập ban đầu trong Arduino IDE.
 
 Cài đặt Arduino IDE
 
@@ -14,14 +14,14 @@ Cài đặt Arduino IDE
 
 2. Cài đặt Board và Thư viện
 
- a) Cài đặt Board ESP32/ESP8266
-Dự án này yêu cầu board ESP32 hoặc ESP8266. Để cài đặt board, làm theo các bước sau:
+ a) Cài đặt Board ESP32
+Dự án này yêu cầu board ESP32. Để cài đặt board, làm theo các bước sau:
 
 1. Mở **Arduino IDE**.
 2. Vào **File > Preferences**.
 3. Trong mục **Additional Boards Manager URLs**, thêm URL sau:
    - ESP32: `https://dl.espressif.com/dl/package_esp32_index.json`
-4. Sau đó, vào **Tools > Board > Boards Manager** và tìm **ESP32** hoặc **ESP8266**, nhấn **Install**.
+4. Sau đó, vào **Tools > Board > Boards Manager** và tìm **ESP32** , nhấn **Install**.
 
  b) Cài đặt Thư viện
 
