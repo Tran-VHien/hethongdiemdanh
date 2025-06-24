@@ -1,0 +1,8 @@
+Wire
+LiquidCrystal_I2C
+Keypad
+Adafruit_Fingerprint
+WiFi
+HTTPClient
+time
+EEPROM
